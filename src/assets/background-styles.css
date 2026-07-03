@@ -1,0 +1,22 @@
+.colorful-background {
+  background: linear-gradient(135deg, #f8f8f8, #e0e0e0);
+  position: relative;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.colorful-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    radial-gradient(circle at 10% 20%, rgba(100, 149, 237, 0.15) 10px, transparent 80px),
+    radial-gradient(circle at 90% 80%, rgba(147, 112, 219, 0.15) 20px, transparent 100px),
+    radial-gradient(circle at 50% 50%, rgba(255, 182, 193, 0.15) 50px, transparent 150px);
+  z-index: 0;
+  pointer-events: none;
+  border-radius: 16px;
+}

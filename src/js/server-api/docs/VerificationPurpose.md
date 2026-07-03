@@ -1,0 +1,12 @@
+# VerificationPurpose
+
+
+## Enum
+
+* `Register` (value: `'register'`)
+
+* `ForgotPassword` (value: `'forgot-password'`)
+
+* `Logout` (value: `'logout'`)
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

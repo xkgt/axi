@@ -1,1 +1,1 @@
-window.VITE_API_URL = "http://127.0.0.1:8000"
+window.VITE_API_URL = "http://36.151.142.63:80"
